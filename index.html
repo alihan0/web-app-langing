@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+    <!-- Metas -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="keywords" content="randevu, randevular, randevularnet, randevu sistemi, randevu otomasyonu, randevu takip, randevu yazılımı, randevu takip yazılımı, randevu takip sistemi"/>
+    <meta name="description" content="RandevularNET - Kolay Randevvu Yönetim Sistemleri" />
+    <meta name="author" content="Randevular.net" />
+
+    <!-- Title  -->
+    <title>Randevular.NET | Kolay Randevu Yönetim Sistemi</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/logo_icon.png" title="Favicon" sizes="16x16" />
+
+    <!-- ====== bootstrap icons cdn ====== -->
+    <link rel="stylesheet" href="../../../../cdn.jsdelivr.net/npm/bootstrap-icons%401.7.2/font/bootstrap-icons.css">
+
+    <!-- bootstrap 5 -->
+    <link rel="stylesheet" href="assets/css/lib/bootstrap.min.css">
+
+    <!-- ====== font family ====== -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/lib/all.min.css" />
+    <link rel="stylesheet" href="assets/css/lib/animate.css" />
+    <link rel="stylesheet" href="assets/css/lib/jquery.fancybox.css" />
+    <link rel="stylesheet" href="assets/css/lib/lity.css" />
+    <link rel="stylesheet" href="assets/css/lib/swiper.min.css" />
+    <!-- ====== global style ====== -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+
+    <!-- ====== start loading page ====== -->
+    <div id="preloader">
+    </div>
+    <!-- ====== end loading page ====== -->
+
+    <!-- ====== start top navbar ====== -->
+    <div class="top-navbar style-4">
+        <div class="container">
+            <marquee>
+            <div class="content text-white">
+
+
+                <span style="margin-left:100px" class="btn sm-butn bg-white py-0 px-2 me-2 fs-10px">
+                    <small class="fs-10px">DUYURU</small>
+                </span>
+                <img src="assets/img/icons/nav_icon/imoj_heart.png" alt="" class="icon-15">
+                <small class="op-10 fs-10px">RandevularNET Yayında!</small>
+                <span class="fs-10px op-6">Hemen sistemi test etmek için demo görüntüleyin.</span>
+                <a href="https://demo.randevular.net" target="_blank" class="fs-10px text-decoration-underline ms-2">Canlı Demo</a>
+
+
+
+
+                <span  style="margin-left:100px" class="btn sm-butn bg-white py-0 px-2 me-2 fs-10px">
+                    <small class="fs-10px">Kampanya</small>
+                </span>
+                <img src="assets/img/icons/nav_icon/imoj_heart.png" alt="" class="icon-15">
+                <span class="fs-10px op-6">Yeni yıla özel </span>
+                <small class="op-10 fs-10px">20% indirim</small>
+                <span class="fs-10px op-6">için hemen kaydolun.</span>
+                <a href="pricing.html" class="fs-10px text-decoration-underline ms-2">Fiyatlar</a>
+
+
+                <span style="margin-left:100px" class="btn sm-butn bg-white py-0 px-2 me-2 fs-10px">
+                    <small class="fs-10px">Kampanya</small>
+                </span>
+                <img src="assets/img/icons/nav_icon/imoj_heart.png" alt="" class="icon-15">
+                <span class="fs-10px op-6">Yıllık aboneliklerde </span>
+                <small class="op-10 fs-10px">2 AY BEDAVA</small>
+                <span class="fs-10px op-6">kampanyadan yararlanmak için hemen kaydolun.</span>
+                <a href="pricing.html" class="fs-10px text-decoration-underline ms-2">Fiyatlar</a>
+
+
+
+                <span style="margin-left:100px" class="btn sm-butn bg-white py-0 px-2 me-2 fs-10px">
+                    <small class="fs-10px">Kampanya</small>
+                </span>
+                <img src="assets/img/icons/nav_icon/imoj_heart.png" alt="" class="icon-15">
+                <span class="fs-10px op-6">Yeni üyeliklerde ilk ay </span>
+                <small class="op-10 fs-10px">%10 İnidirim!</small>
+                <span class="fs-10px op-6">Kampanyadan yararlanmak için hemen kaydolun.</span>
+                <a href="pricing.html" class="fs-10px text-decoration-underline ms-2">Fiyatlar</a>
+            </div>
+            
+        </marquee>
+        
+        </div>
+    </div>
+    <!-- ====== end top navbar ====== -->
+
+    <!-- ====== start navbar ====== -->
+    <nav class="navbar navbar-expand-lg navbar-light style-4">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="assets/img/logo_1.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0 text-uppercase">
+                    <li class="nav-item ">
+                        <a class="nav-link active " href="#">
+                            Anasayfa
+                        </a>
+                        
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="features.html">
+                            Özellikler
+                            <small class="hot alert-danger text-danger">hot</small>
+                        </a>
+                        
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pricing.html">
+                            Fiyatlar
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="help.html">
+                            Yardım
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">
+                            <!--<img src="assets/img/icons/nav_icon/price.png" alt="" class="icon-15 me-1">-->
+                            İletişim
+                        </a>
+                    </li>
+                </ul>
+                <div class="nav-side">
+                    <div class="d-flex align-items-center">
+                        <a href="https://account.randevular.net/login.php" class="search-icon me-4">
+                            <i class="fas fa-user"></i>
+                        </a>
+                        <a href="https://account.randevular.net/register.php" class="btn rounded-pill brd-gray hover-blue4 sm-butn fw-bold">
+                            <span>Randevular.NET'e Katıl<i class="bi bi-arrow-right ms-1"></i> </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- ====== end navbar ====== -->
+
+    <!-- ====== start header ====== -->
+    <header class="style-4">
+        <div class="content">
+            <div class="container">
+                <div class="row gx-0">
+                    <div class="col-lg-6">
+                        <div class="info">
+                            <small class="mb-50 title_small">RandevularNET - Kolay Randevu Sistemi</small>
+                            <h1 class="mb-30">Tüm <span> Randevularınızı </span> Kolayca Yönetin </h1>
+                            <p class="text">Randevu takip ve hatırlatma sistemleri ile birlikte tüm randevularınızı Randevular.NET aracılığı ile kolayca yönetin ve hiç randevu kaybı yaşayamayın.</p>
+                            <div class="d-flex align-items-center mt-50">
+                                <a href="https://demo.randevular.net" target="_blank" class="btn rounded-pill bg-blue4 fw-bold text-white me-4" target="_blank">
+                                    <small> <i class="fas fa-search me-2 pe-2 border-end"></i> Demo Görüntüle</small>
+                                </a>
+                                <a href="https://youtu.be/pGbIOC83-So?t=21" data-lity class="play-btn">
+                                    <span class="icon me-2">
+                                        <i class="fas fa-play ms-1"></i>
+                                    </span>
+                                    <strong class="small">Tanıtım <br> Videosu</strong>
+                                </a>
+                            </div>
+                            <span class="mt-100 me-5">
+                                <small
+                                    class="icon-30 bg-gray rounded-circle color-blue4 d-inline-flex align-items-center justify-content-center me-1">
+                                    <i class="fas fa-sync"></i>
+                                </small>
+                                <small class="text-uppercase">Üstün Veri Koruması</small>
+                            </span>
+                            <span class="mt-100">
+                                <small
+                                    class="icon-30 bg-gray rounded-circle color-blue4 d-inline-flex align-items-center justify-content-center me-1">
+                                    <i class="fas fa-credit-card"></i>
+                                </small>
+                                <small class="text-uppercase">Ücretsiz Teknik Destek</small>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="img">
+                            <img src="assets/img/header/header_4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="assets/img/header/header_4_bubble.png" alt="" class="bubble">
+        </div>
+        <img src="assets/img/header/header_4_wave.png" alt="" class="wave">
+    </header>
+    <!-- ====== end header ====== -->
+
+    <!--Contents-->
+    <main>
+        <!-- ====== start services ====== -->
+        <section class="clients section-padding style-4">
+            <div class="container">
+                <div class="section-head mb-40 text-center style-6">
+                    <h2 class="mb-20">
+                        Sistemin Tüm Özelliklerini
+                        <span> <small>keşfedin</small> </span>
+                    </h2>
+                    <p>Randevular.NET sizlere kullanabileceğiniz onlarca özellik ve eklenti sunar. </p>
+                </div>
+            </div>
+            <div class="content">
+                <div class="services-slider position-relative style-6">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="features.html" class="service-card style-6">
+                                    <div class="icon">
+                                        <img src="assets/img/icons/serv_icons/16.png" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <h5>Müşteri Takibi</h5>
+                                        <div class="text">
+                                            Tüm müşterilerinizin bilgilerini tek bir panel üzerinden kontrol edebilirsiniz.
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="features.html" class="service-card style-6">
+                                    <div class="icon">
+                                        <img src="assets/img/icons/serv_icons/bill.png" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <h5>Muhasebe Sistemi</h5>
+                                        <div class="text">
+                                            Gelir ve giderlerinizi takip edebilmek için ekstra başka bir yazılıma ihtiyacınız yok!
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="features.html" class="service-card style-6">
+                                    <div class="icon">
+                                        <img src="assets/img/icons/serv_icons/14.png" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <h5>SMS Bilgilendirme</h5>
+                                        <div class="text">
+                                            Müşterileriniz, yapılan tüm işlem ve değişikliklerden sms yolu ile anında bilgilendirilir.
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="features.html" class="service-card style-6">
+                                    <div class="icon">
+                                        <img src="assets/img/icons/serv_icons/15.png" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <h5>Hatırlatma Sistemleri</h5>
+                                        <div class="text">
+                                            Müşterileriniz, randevu oluşturulduğunda, randevudan bir gün önce ve randevu gününde sistem tarafından otomatik olarak bilgilendirilir.
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="features.html" class="service-card style-6">
+                                    <div class="icon">
+                                        <img src="assets/img/icons/serv_icons/18.png" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <h5>Ürün&Hizmet Yönetimi</h5>
+                                        <div class="text">
+                                            Müşterilere sunduğunuz tüm ürün ve hizmetleri tek bir panelden yönetebilir, stok takibi yapabilirsiniz.
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="features.html" class="service-card style-6">
+                                    <div class="icon">
+                                        <img src="assets/img/icons/serv_icons/add-user.png" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <h5>Personel Yönetimi</h5>
+                                        <div class="text">
+                                            Tüm personel bilgilerinizi; çalışma saatleri, izin ve avans durumlarını takip edebilirsiniz.
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="features.html" class="service-card style-6">
+                                    <div class="icon">
+                                        <img src="assets/img/icons/serv_icons/ticket.png" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <h5>Kupon&Kampanya Yönetimi</h5>
+                                        <div class="text">
+                                            Doğum günü olan müşterileriniz için otomatik indirimler tanımlayın, belirli günler için otomatik ya da manuel kampanyalar oluşturun.
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a href="features.html" class="btn rounded-pill butn-blue6 hover-blue2 sm-butn fw-bold me-3">
+                        <span>
+                            Tüm Özelleri Görün
+                            <i class="bi bi-arrow-right ms-1"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- ====== end services ====== -->
+        <!-- ====== start clients ====== -->
+        
+        <!-- ====== end clients ====== -->
+
+        <!-- ====== start features ====== -->
+        <section class="features pt-70 pb-70 style-4">
+            <div class="container">
+                <div class="section-head text-center style-4">
+                    <small class="title_small bg-white">Randevular.NET - Kolay Randevu Sistemi</small>
+                    <h2 class="mb-70">Hızlı <span> Kurulum </span> </h2>
+                </div>
+                <div class="content">
+                    <div class="features-card">
+                        <div class="icon img-contain">
+                            <img src="assets/img/icons/shopping-cart.png" alt="">
+                        </div>
+                        <h6>Siparişinizi<br> Oluşturun</h6>
+                    </div>
+                    <div class="features-card">
+                        <div class="icon img-contain">
+                            <img src="assets/img/icons/list.png" alt="">
+                        </div>
+                        <h6>Giriş Bilgilerinizi<br> Teslim Alın</h6>
+                    </div>
+                    <div class="features-card">
+                        <div class="icon img-contain">
+                            <img src="assets/img/icons/fe3.png" alt="">
+                            <span
+                                class="label icon-40 alert-success text-success rounded-circle small text-uppercase fw-bold">
+                                new
+                            </span>
+                        </div>
+                        <h6>Hizmet ve Paketlerinizi <br>Oluşturun</h6>
+                    </div>
+                    <div class="features-card">
+                        <div class="icon img-contain">
+                            <img src="assets/img/icons/serv_icons/add-user.png" alt="">
+                        </div>
+                        <h6>Müşterilerinizi<br> Kaydedin</h6>
+                    </div>
+                    <div class="features-card">
+                        <div class="icon img-contain">
+                            <img src="assets/img/icons/calendar.png" alt="">
+                        </div>
+                        <h6>Randevu Oluşturmaya<br> Başlayın</h6>
+                    </div>
+                </div>
+            </div>
+            <img src="assets/img/feat_circle.png" alt="" class="img-circle">
+        </section>
+        <!-- ====== end features ====== -->
+
+        <!-- ====== start about ====== -->
+        <section class="about section-padding style-4">
+            <div class="content frs-content">
+                <div class="container">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-lg-6">
+                            <div class="img mb-30 mb-lg-0">
+                                <img src="assets/img/about/65982.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="info">
+                                <div class="section-head style-4">
+                                    <small class="title_small">Randevular.NET - Kolay Randevu Sistemi</small>
+                                    <h2 class="mb-30"><span> Kolaylıklar</span>  Sizi Bekliyor  </h2>
+                                </div>
+                                <p class="text mb-40">
+                                   Randevular.NET ile randevu otomasyonunuz çok kolay ve hızlı bir şekilde kurulur. Siparişinizi oluşturmanızın ardından 2 saat içerisinde otomasyonunuz kurulur ve size teslim edilir. Kullanım rehberleri ve destek personellerimiz sayesinde aynı gün kullanmaya başlayabilirsiniz. 
+                                </p>
+                                <ul>
+                                    <li class="d-flex align-items-center mb-3">
+                                        <small class="icon-30 bg-gray rounded-circle color-blue4 d-inline-flex align-items-center justify-content-center me-3">
+                                            <i class="fas fa-tag"></i>
+                                        </small>
+                                        <h6 class="fw-bold">Müşteri arşivinizi genişletin ve yönetin</h6>
+                                    </li>
+                                    <li class="d-flex align-items-center mb-3">
+                                        <small class="icon-30 bg-gray rounded-circle color-blue4 d-inline-flex align-items-center justify-content-center me-3">
+                                            <i class="fas fa-sync"></i>
+                                        </small>
+                                        <h6 class="fw-bold">Randevularınızı otomatikleştirin.</h6>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <small class="icon-30 bg-gray rounded-circle color-blue4 d-inline-flex align-items-center justify-content-center me-3">
+                                            <i class="fas fa-text-width"></i>
+                                        </small>
+                                        <h6 class="fw-bold">Kişiye özel fiyat ve kampanya tanımlayın.</h6>
+                                    </li>
+                                </ul>
+                                <a href="https://demo.randevular.net" target="_blank" class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
+                                    <small> Ücretsiz Demo </small>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="assets/img/about/about_s4_lines.png" alt="" class="lines">
+                <img src="assets/img/about/about_s4_bubble.png" alt="" class="bubble">
+            </div>
+            <div class="content sec-content">
+                <div class="container">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-lg-5 order-2 order-lg-0">
+                            <div class="info">
+                                <div class="section-head style-4">
+                                    <small class="title_small">Randevular.NET - Kolay Randevu Sistemi</small>
+                                    <h2 class="mb-30">En Çok <span> Merak Edilenler </span> </h2>
+                                </div>
+                                <p class="text mb-40">
+                                    En çok merak edilen soruları sizin için derledik. Daha fazlası için <b>Yardım</b> bölümünden faydalanabilirsiniz.
+                                </p>
+                                <div class="faq style-3 style-4">
+                                    <div class="accordion" id="accordionExample">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="heading1">
+                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                                                    Randevular.NET sistemini kullanmak için ekstra ücret ödemem gerekiyor mu?
+                                                </button>
+                                            </h2>
+                                            <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    Hayır, Randevular.NET'de sürpriz ödemeler yok. Sadece satın aldığınız planı ödersiniz. Ekstra özellikler talep edilmedikçe ekstra ücret yansıtılmaz.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="heading2">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                                    Randevular.NET'de SMS paktleri ücretli mi?
+                                                </button>
+                                            </h2>
+                                            <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    Evet, Randevular.NET sistemi işletmeniz ile müşterileriniz arasındaki iletişimi otomatikleştirmek ve hatırlatma yapmak için geliştirilmiştir. SMS almak zorunda olmadığınız gibi sistemin tam kapasitede çalışabilmesi için SMS bakiyenizin bulunması gerekir.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="heading3">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                                    Randevu otomasyonunuz güncelleştiriliyor mu?
+                                                </button>
+                                            </h2>
+                                            <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    Evet, geliştirici ekibimiz sürekli olarak sistemimizi geliştirmek ve daha iyi hale getirmek için çalışıyor. Herhangi bir planı aldığınızda, o plana ait olan güncellemeler otomatik olarak yapılır. Yeni sürümler için ekstra ücret talep edilmez.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="help.html" class="btn btn-img mt-40 rounded-pill">
+                                    <div class="icon img-contain">
+                                       <i class="fas fa-life-ring"></i>
+                                    </div>
+                                    <div class="inf">
+                                        <small> Daha Fazlası İçin </small>
+                                        <h6>Sıkça Sorulan Soruları Görüntüleyin</h6>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 order-0 order-lg-2">
+                            <div class="img mb-30 mb-lg-0">
+                                <img src="assets/img/about/5877.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="assets/img/about/about_s4_bubble2.png" alt="" class="bubble2">
+            </div>
+            <div class="content trd-content">
+                <div class="container">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-lg-6">
+                            <div class="img mb-30 mb-lg-0">
+                                <img src="assets/img/about/about_s4_img3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="info">
+                                <div class="section-head style-4">
+                                    <small class="title_small">Randevular.NET - Kolay Randevu Sistemi</small>
+                                    <h2 class="mb-30">Çoklu <span> Dil Sistemi </span> </h2>
+                                </div>
+                                <p class="text mb-40">
+                                    Randevular.NET global olarak hizmet verir ve tüm uluslar için maksimum performans vermeye odaklanır. Otomasyon, birden fazla dile sahiptir ve istediğiniz dili tek tıklamayla kullanmaya başlayabilirsiniz. Diller için ekstra ücret ödemezsiniz.
+                                </p>
+                               
+                                <a href="https://demo.randevular.net" target="_blank" class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
+                                    <small> Ücretsiz Demo</small>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="assets/img/about/about_s4_bubble.png" alt="" class="bubble">
+            </div>
+            
+       
+        </section>
+        <!-- ====== end about ====== -->
+
+        <!-- ====== start screenshots  ====== -->
+        
+        <!-- ====== end screenshots  ====== -->
+
+        <!-- ====== start testimonials ====== -->
+        
+        <!-- ====== end testimonials ====== -->
+
+        <!-- ====== start pricing ====== -->
+        <section class="pricing section-padding style-4 pb-50">
+            <div class="container">
+                <div class="section-head text-center style-4">
+                    <small class="title_small">Fiyatlar</small>
+                    <h2 class="mb-30"> Başlamak için <span> size en uygun </span> planı seçin </h2>
+                </div>
+                <div class="content">
+                    <div class="toggle_switch d-flex align-items-center justify-content-center mb-40">
+                        <div class="form-check form-switch p-0">
+                            <label class="form-check-label" for="flexSwitchCheckDefault"><small>Aylık Ödeme</small></label>
+                            <input class="form-check-input float-none bg-blue4" type="checkbox"
+                                id="flexSwitchCheckDefault" checked>
+                            <label class="form-check-label" for="flexSwitchCheckDefault"><small>Yıllık Ödeme</small></label>
+                        </div>
+                    </div>
+                    <div class="row gx-0">
+                        <div class="col-lg-6">
+                            <div class="price-card">
+                                <div class="price-header pb-4">
+                                    <h6> <img src="assets/img/icons/price_s4_1.png" alt="" class="icon"> Başlangıç </h6>
+                                    <h2>249₺ <small> / ay</small></h2>
+                                    <p>Başlangıç için en uygun plan.</p>
+                                </div>
+                                <div class="price-body py-4">
+                                    <ul>
+                                        <li class="d-flex align-items-center mb-3">
+                                            <small class="icon-30 bg-blue4 rounded-circle text-white d-inline-flex align-items-center justify-content-center me-3 flex-shrink-0">
+                                                <i class="far fa-sticky-note"></i>
+                                            </small>
+                                            <p class="fw-bold">5 Adet Yönetici Ekleme</p>
+                                        </li>
+                                        <li class="d-flex align-items-center mb-3">
+                                            <small class="icon-30 bg-blue4 rounded-circle text-white d-inline-flex align-items-center justify-content-center me-3 flex-shrink-0">
+                                                <i class="fas fa-paperclip"></i>
+                                            </small>
+                                            <p class="fw-bold">1.000 Adet Müşteri Ekleme</p>
+                                        </li>
+                                        <li class="d-flex align-items-center mb-3 ">
+                                            <small class="icon-30 bg-blue4 rounded-circle text-white d-inline-flex align-items-center justify-content-center me-3 flex-shrink-0">
+                                                <i class="fas fa-lock"></i>
+                                            </small>
+                                            <p class="fw-bold">SMS bilgilendirme sistemi</p>
+                                        </li>
+                                        <li class="d-flex align-items-center mb-3 ">
+                                            <small class="icon-30 bg-blue4 rounded-circle text-white d-inline-flex align-items-center justify-content-center me-3 flex-shrink-0">
+                                                <i class="fas fa-undo"></i>
+                                            </small>
+                                            <p class="fw-bold">Çoklu dil desteği</p>
+                                        </li>
+                                        <li class="d-flex align-items-center">
+                                            <small class="icon-30 bg-blue4 rounded-circle text-white d-inline-flex align-items-center justify-content-center me-3 flex-shrink-0">
+                                                <i class="fas fa-download"></i>
+                                            </small>
+                                            <p class="fw-bold">1 GB Disk Alanı</p>
+                                        </li>
+                                    </ul>
+                                    <a href="https://account.randevular.net/register.php" class="btn rounded-pill hover-blue4 fw-bold mt-50 px-5 border-blue4">
+                                        <small>Şimdi Kayıt ol</small>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="price-card">
+                                <div class="price-header pb-4">
+                                    <h6> <img src="assets/img/icons/price_s4_2.png" alt="" class="icon"> Standart Plan </h6>
+                                    <h2>479₺ <small> / ay</small></h2>
+                                    <p>Orta ölçekli işletmeler için en uygun plan.</p>
+                                </div>
+                                <div class="price-body py-4">
+                                    <ul>
+                                        <li class="d-flex align-items-center mb-3">
+                                            <small class="icon-30 bg-blue4 rounded-circle text-white d-inline-flex align-items-center justify-content-center me-3 flex-shrink-0">
+                                                <i class="far fa-sticky-note"></i>
+                                            </small>
+                                            <p class="fw-bold">10 Adet Yönetici Ekleme </p>
+                                        </li>
+                                        <li class="d-flex align-items-center mb-3">
+                                            <small class="icon-30 bg-blue4 rounded-circle text-white d-inline-flex align-items-center justify-content-center me-3 flex-shrink-0">
+                                                <i class="fas fa-paperclip"></i>
+                                            </small>
+                                            <p class="fw-bold">3.000 Adet Müşteri Ekleme</p>
+                                        </li>
+                                        <li class="d-flex align-items-center mb-3 ">
+                                            <small class="icon-30 bg-blue4 rounded-circle text-white d-inline-flex align-items-center justify-content-center me-3 flex-shrink-0">
+                                                <i class="fas fa-lock"></i>
+                                            </small>
+                                            <p class="fw-bold">SMS bilgilendirme sistemi</p>
+                                        </li>
+                                        <li class="d-flex align-items-center mb-3 ">
+                                            <small class="icon-30 bg-blue4 rounded-circle text-white d-inline-flex align-items-center justify-content-center me-3 flex-shrink-0">
+                                                <i class="fas fa-undo"></i>
+                                            </small>
+                                            <p class="fw-bold">Çoklu dil desteği</p>
+                                        </li>
+                                        <li class="d-flex align-items-center ">
+                                            <small class="icon-30 bg-blue4 rounded-circle text-white d-inline-flex align-items-center justify-content-center me-3 flex-shrink-0">
+                                                <i class="fas fa-download"></i>
+                                            </small>
+                                            <p class="fw-bold">2 GB Disk Alanı</p>
+                                        </li>
+                                    </ul>
+                                    <a href="https://account.randevular.net/register.php" class="btn rounded-pill bg-blue4 fw-bold text-white px-5 mt-50">
+                                        <small>Şimdi Kayıt ol</small>
+                                    </a>
+                                </div>
+                                
+                            </div>
+                          
+                        </div>
+                        <div class="text-center">
+                            <a href="pricing.html" class="btn rounded-pill butn-blue6 hover-blue2 sm-butn fw-bold me-3 mt-50">
+                                <span>
+                                    Tüm Planları Görün
+                                    <i class="bi bi-arrow-right ms-1"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ====== end pricing ====== -->
+
+        <!-- ====== start faq ====== -->
+        
+        <!-- ====== end faq ====== -->
+
+        <!-- ====== start community ====== -->
+        <section class="community section-padding pt-0 style-4">
+            <div class="container">
+                <div class="section-head text-center style-4">
+                    <small class="title_small">RandevularNET - Kolay Randevu Sistemi</small>
+                    <h2 class="mb-30"> <span> Topluluklarımıza </span> Katılın</h2>
+                </div>
+                <div class="content">
+                    <a href="https://instagram.com/randevularnet" class="commun-card" target="_blank">
+                        <div class="icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="inf">
+                            <h5>İnstagram</h5>
+                            <p>Yenilikler & Kampanyalar için takip et.</p>
+                        </div>
+                    </a>
+                    <a href="https://twitter.com/randevularnet" class="commun-card" target="_blank">
+                        <div class="icon">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <div class="inf">
+                            <h5>Twitter</h5>
+                            <p>Duyurular & Güncellemeler için takip et.</p>
+                        </div>
+                    </a>
+                    <a href="https://t.me/randevularnet" class="commun-card" target="_blank">
+                        <div class="icon">
+                            <i class="fab fa-telegram"></i>
+                        </div>
+                        <div class="inf">
+                            <h5>Telegram</h5>
+                            <p>Yardım & Destek için kanala katıl.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- ====== end community ====== -->
+    </main>
+    <!--End-Contents-->
+
+    <!-- ====== start footer ====== -->
+    <footer class="style-4">
+        <div class="container">
+            <div class="section-head text-center style-4">
+                <h2 class="mb-10"><span> Başlamak İçin </span> Hazırsın </h2>
+                <p>RandevularNET dünyasına girmek için tüm bilgilere sahipsin. Hemen kayıt olarak başlayabilirsin.</p>
+                <div class="d-flex align-items-center justify-content-center mt-50">
+                    <a href="https://account.randevular.net/register.php" class="btn rounded-pill bg-blue4 fw-bold text-white me-4" target="_blank">
+                        <small> <i class="fas fa-user-plus me-2 pe-2 border-end"></i> Hemen Kayıt ol </small>
+                    </a>
+                    <a href="https://demo.randevular.net" class="btn rounded-pill hover-blue4 fw-bold border-blue4" target="_blank">
+                        <small> <i class="fas fa-search me-2 pe-2 border-end"></i> Canlı Demo Görüntüle </small>
+                    </a>
+                </div>
+            </div>
+            <div class="foot mt-80">
+                <div class="row align-items-center">
+                    <div class="col-lg-2">
+                        <div class="logo">
+                            <img src="assets/img/logo_1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <ul class="links">
+                            <li>
+                                <a href="/" class="active">Anasayfa</a>
+                            </li>
+                  
+                            <li>
+                                <a href="features.html">Özellikler</a>
+                            </li>
+                            <li>
+                                <a href="pricing.html">Fiyatlar</a>
+                            </li>
+                            <li>
+                                <a href="help.html">Yardım</a>
+                            </li>
+                            <li>
+                                <a href="contracts.html">Sözleşmeler</a>
+                            </li>
+                    
+                            <li>
+                                <a href="contact.html">İletişim</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="dropdown">
+                            <button class="icon-25 dropdown-toggle p-0 border-0 bg-transparent rounded-circle img-cover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="assets/img/tr.png" alt="" class="me-2">
+                                <small>Türkçe</small>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">English</a></li>
+                                <li><a class="dropdown-item" href="#">Arabic</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copywrite text-center">
+                <small class="small">
+                    Copyright  © 2022 - <a href="#" class="fw-bold text-decoration-underline">Randevular.NET</a> | Tüm hakları saklıdır. <br/><br/>
+                    <img src="assets/img/logo_1.png" width="85" alt="Randevular.NET - Kolay Randevu Yönetim Sistemleri" title="Randevular.NET - Kolay Randevu Yönetim Sistemleri"> bir  <a href="https://metatige.com" target="_blank"><img style="margin-top:5px" src="assets/img/metatige-hcolor.png" width="100" alt="Metatige Dijital" title="Metatige Dijital"></a> markasıdır.
+                </small>
+            </div>
+        </div>
+        <img src="assets/img/footer/footer_4_wave.png" alt="" class="wave">
+    </footer>
+    <!-- ====== end footer ====== -->
+
+    <!-- ====== start to top button ====== -->
+    <a href="#" class="to_top bg-gray rounded-circle icon-40 d-inline-flex align-items-center justify-content-center">
+        <i class="fas fa-chevron-up fs-6 text-dark"></i>
+    </a>
+    <!-- ====== end to top button ====== -->
+
+    <!-- ====== request ====== -->
+    <script src="assets/js/lib/jquery-3.0.0.min.js"></script>
+    <script src="assets/js/lib/jquery-migrate-3.0.0.min.js"></script>
+    <script src="assets/js/lib/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/lib/wow.min.js"></script>
+    <script src="assets/js/lib/jquery.fancybox.js"></script>
+    <script src="assets/js/lib/lity.js"></script>
+    <script src="assets/js/lib/swiper.min.js"></script>
+    <script src="assets/js/lib/jquery.waypoints.min.js"></script>
+    <script src="assets/js/lib/jquery.counterup.js"></script>
+    <script src="assets/js/lib/pace.js"></script>
+    <script src="assets/js/lib/scrollIt.min.js"></script>
+    <script src="assets/js/main.js"></script>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/635ff306daff0e1306d4f08c/1ggncqks4';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QEKET4SGCX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QEKET4SGCX');
+</script>
+</body>
+</html>
